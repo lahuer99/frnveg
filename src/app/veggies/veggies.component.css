@@ -1,0 +1,28 @@
+.eachv{
+    background-color: rgb(177, 177, 236);
+    /* margin: 1em 1em; */
+    border-radius: 9px;
+    padding-top: 0.8em;
+    padding-bottom: 1.3em;
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.eachv > button{
+    border: none;
+    float: left;
+    margin-left: 0.7em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 3.4em;
+    width: 4.7em;
+    border-radius: 10px;
+}
+
+.eachv > span{
+    font-size: 1.5em;
+    font-weight: unset;
+}

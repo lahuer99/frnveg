@@ -1,0 +1,16 @@
+<div [ngClass]="'maincontainer'">
+    <div>
+        <app-fruits [selected]="fruits" (selectedChange)="updateP($event)"></app-fruits>
+    </div>
+    <div>
+        <h4>Pool</h4>
+        <div *ngFor="let item of poollist" [ngClass]="'eachf'">
+            <button (click)="leftClick(item)">&larr;</button>
+            <span>{{item.name}}</span>
+            <button (click)="rightClick(item)">&rarr;</button>
+        </div>
+    </div>
+    <div>
+        <app-veggies [selected]="veggies" (selectedChange)="updateP($event)"></app-veggies>
+    </div>
+</div>

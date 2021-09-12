@@ -1,0 +1,4 @@
+<div *ngFor="let f of selected" [ngClass]="'eachf'">
+    <span>{{f.name}}</span>
+    <button (click)="addBack(f)">&rarr;</button>
+</div>
