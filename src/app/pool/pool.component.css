@@ -25,7 +25,7 @@ h4{
 
 .eachf{
     background-color: rgb(177, 177, 236);
-    /* margin: 1em 1em; */
+    box-shadow: 1.6px 1.6px 4.9px rgb(94, 89, 89);
     border-radius: 9px;
     padding-top: 0.8em;
     padding-bottom: 1.3em;
@@ -41,17 +41,29 @@ h4{
     text-transform: uppercase;
     font-weight: bolder;
     height: 3.4em;
-    width: 4.7em;
+    width: 5.7em;
     border-radius: 10px;
+}
+
+.eachf > button:hover{
+    box-shadow: 0.5px 0.5px 8px rgb(94, 89, 89);
 }
 
 .eachf > button:nth-of-type(1){
     margin-left: 0.7em;
     float: left;
 }
+.eachf > button:nth-of-type(1):hover{
+    background-image: linear-gradient(to left, rgb(220, 236, 222) , rgb(168, 231, 172));
+}
+
 .eachf > button:nth-of-type(2){
     float: right;
     margin-right: 0.7em;
+    transition: background-image 3s;
+}
+.eachf > button:nth-of-type(2):hover{
+    background-image: linear-gradient(to right, rgb(220, 236, 222) , rgb(168, 231, 172));
 }
 
 .eachf > span{
